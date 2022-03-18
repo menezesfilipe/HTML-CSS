@@ -5,7 +5,19 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'Passion One';
+    src: url(fonts/PassionOne-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fonts/Sriracha-Regular.ttf) format('opentype');
+}
+
 html, body {
+    font-family: verdana, tahoma, sans-serif;;
     min-height: 100vh;
     background-color: darkgrey;
 }
@@ -17,6 +29,7 @@ header {
 }
 
 header h1 {
+    font-family: 'Passion One';
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -36,6 +49,7 @@ a:hover {
 }
 
 section{
+    font-family: 'Sriracha';
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
